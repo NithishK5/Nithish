@@ -120,12 +120,12 @@ $potrait-image: url(../dist/img/Nithish.jpeg);
     text-transform: uppercase;
     padding: 1rem 0;
     font-weight: 300;
-    color: set-text-color(#684747);
+    color: set-text-color #000000;
     text-decoration: none;
     @include easeOut;
 
     &:hover {
-      color: #2e1717;
+      color: $secondary-color;
     }
   }
 }
