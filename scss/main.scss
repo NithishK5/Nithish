@@ -29,7 +29,7 @@ h3 {
   &.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(lighten($primary-color, 2), 0.5);
+    background: rgba(lighten($primary-color, 1), 0.4);
   }
 }
 
@@ -132,44 +132,6 @@ main {
     }
   }
 }
-
-// Resume
-
-// .resume{
-
-// h3,
-// h4,
-// h5,
-// h6 {
-//   margin: 0;
-//   font-weight: 400;
-//   font-size: 2.0rem;
-
-// }
-
-//   display: grid;
-//   grid-gap: 30px;
-//   grid-template-areas:
-//     'Uni, Foundation, Tvis, Svv';
-//   grid-template-columns: repeat(4, 1fr);
-
-//   .Uni{
-//     grid-area: 2;
-//     margin: 15px;
-//     font-size: 1.8rem;
-//     padding: 0.5rem;
-//     border-bottom: #000000 5px solid;
-
-//   }
-
-//   .Foundation{
-//     grid-area: 2;
-//     margin: 15px;
-//     font-size: 1.8rem;
-//     padding: 0.5rem;
-//     border-bottom: #000000 5px solid;
-//   }
-// }
 
 // Resume
 
