@@ -1,3 +1,6 @@
+$show-potrait-image: true;
+$potrait-image: url(../dist/img/Nithish.jpeg);
+
 // Menu Button
 .menu-btn {
   position: absolute;
@@ -11,7 +14,7 @@
     width: 28px;
     height: 3px;
     margin: 0 0 5px 0;
-    background: set-text-color($primary-color);
+    background: set-text-color(#000000);
     @include easeOut;
   }
 
@@ -43,7 +46,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  opacity: 0.9;
+  opacity: 0.7;
   visibility: hidden;
 
   &.show {
@@ -65,7 +68,7 @@
   &-nav {
     margin: 0;
     padding: 0;
-    background: darken($primary-color, 5);
+    background: darken(#684747, 5);
     list-style: none;
     transform: translate3d(0, -100%, 0);
     @include easeOut;
@@ -90,7 +93,7 @@
     .portrait {
       width: 250px;
       height: 250px;
-      background: url('../dist/img/Nithish.jpeg');
+      background-image: url(../dist/img/Nithish.jpeg);
       border-radius: 100%;
       border: solid 3px $secondary-color;
     }
@@ -117,12 +120,12 @@
     text-transform: uppercase;
     padding: 1rem 0;
     font-weight: 300;
-    color: set-text-color($primary-color);
+    color: set-text-color(#684747);
     text-decoration: none;
     @include easeOut;
 
     &:hover {
-      color: $secondary-color;
+      color: #2e1717;
     }
   }
 }
