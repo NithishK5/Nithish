@@ -163,14 +163,6 @@ main {
   color: #fff;
 }
 
-.btn-light {
-  @extend .btn;
-  background: lighten($primary-color, 50);
-  font-size: large;
-  align-items: center;
-  color: #000000;
-}
-
 .item{
   align-items: center;
   text-align: center;
