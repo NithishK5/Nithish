@@ -182,10 +182,10 @@ main {
   text-align: center;
   padding: 20px; }
   .projects img {
-    height: auto;
-    width: auto;
-    max-width: 300px;
-    max-height: 300px;
+    height: 150rem;
+    width: 150rem;
+    max-width: 250px;
+    max-height: 250px;
     border: 1.5px #fff solid; }
     .projects img:hover {
       opacity: 0.5;
@@ -199,8 +199,9 @@ main {
 
 .btn, .btn-dark, .btn-light {
   display: block;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 1.0rem;
   border: 0;
+  width: 350px;
   margin-bottom: 0.3rem; }
   .btn:hover, .btn-dark:hover, .btn-light:hover {
     background: #b1266b;
@@ -210,12 +211,18 @@ main {
 .btn-dark {
   background: black;
   font-size: large;
+  align-items: flex-end;
   color: #fff; }
 
 .btn-light {
   background: #c4c4c4;
   font-size: large;
+  align-items: center;
   color: #000000; }
+
+.item {
+  align-items: center;
+  text-align: center; }
 
 #main-footer {
   text-align: center;
